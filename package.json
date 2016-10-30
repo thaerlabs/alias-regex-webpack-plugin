@@ -1,0 +1,30 @@
+{
+  "name": "alias-regex-webpack-plugin",
+  "version": "0.1.1",
+  "description": "Webpack plugin that enables overriding module import paths using a regex match and a replacement",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel index.js --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiehill/path-override-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "path",
+    "override",
+    "resolver",
+    "alias"
+  ],
+  "author": "Thaer Abbas <abbas.t249@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamiehill/path-override-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/jamiehill/path-override-webpack-plugin#readme",
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-preset-es2015": "6.18.0"
+  }
+}
