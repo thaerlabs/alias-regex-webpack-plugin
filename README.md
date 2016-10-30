@@ -1,6 +1,4 @@
-# path-override-webpack-plugin
-
-[![Build Status](https://travis-ci.org/jamiehill/path-override-webpack-plugin.svg?branch=master)](https://travis-ci.org/jamiehill/path-override-webpack-plugin)
+# alias-regex-webpack-plugin
 
 [Webpack](http://webpack.github.io) plugin that provides a convenience to override modules `require` paths, with an external set of matching files.
 
@@ -22,11 +20,11 @@ Say we want to override the styles and view with different files, we'd simply ad
 
 ``` js
 // webpack.config.js
-import PathOverridePlugin from 'path-override-webpack-plugin'
+import AliasRegexOverridePlugin from 'alias-regex-webpack-plugin'
 
 const webpackConfig = {
     plugins: [
-        new PathOverridePlugin(/^app\/view/, './node_modules/SomeExternalSkin/src')
+        new AliasRegexhOverridePlugin(/^app\/view/, './node_modules/SomeExternalSkin/src')
     ]
 }
 
@@ -34,16 +32,16 @@ const webpackConfig = {
 
 ## Installation
 
-Install via [npm](https://www.npmjs.com/package/path-override-webpack-plugin):
+Install via [npm](https://www.npmjs.com/package/alias-regex-webpack-plugin):
 
 ``` js
-npm install --save-dev path-override-webpack-plugin
+npm install --save-dev alias-regex-webpack-plugin
 ```
 
 ## Api
 
 ``` js
-new PathOverridePlugin(pathRegExp, pathReplacement, extensions)
+new AliasRegexhOverridePlugin(pathRegExp, pathReplacement, extensions)
 ```
 
 * `pathRegExp` _(required)_ `regexp` the `RegExp` to match paths against.  
@@ -56,4 +54,4 @@ new PathOverridePlugin(pathRegExp, pathReplacement, extensions)
 
 --
 
-[_License (MIT)_](https://github.com/jamiehill/path-override-webpack-plugin/blob/master/docs/LICENSE.md)
+[_License (MIT)_](https://github.com/thaerlabs/alias-regex-webpack-plugin/blob/master/docs/LICENSE.md)

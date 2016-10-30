@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamiehill/path-override-webpack-plugin.git"
+    "url": "git+https://github.com/thaerlabs/alias-regex-webpack-plugin.git"
   },
   "keywords": [
     "webpack",
@@ -20,9 +20,9 @@
   "author": "Thaer Abbas <abbas.t249@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jamiehill/path-override-webpack-plugin/issues"
+    "url": "https://github.com/thaerlabs/alias-regex-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/jamiehill/path-override-webpack-plugin#readme",
+  "homepage": "https://github.com/thaerlabs/alias-regex-webpack-plugin#readme",
   "devDependencies": {
     "babel-cli": "6.18.0",
     "babel-preset-es2015": "6.18.0"
