@@ -41,7 +41,7 @@ npm install --save-dev alias-regex-webpack-plugin
 ## Api
 
 ``` js
-new AliasRegexhOverridePlugin(pathRegExp, pathReplacement, extensions)
+new AliasRegexOverridePlugin(pathRegExp, pathReplacement, extensions)
 ```
 
 * `pathRegExp` _(required)_ `regexp` the `RegExp` to match paths against.  
